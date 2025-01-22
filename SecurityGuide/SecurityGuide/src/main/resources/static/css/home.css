@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , "sans-serif";
+}
+
+body {
+    background-color: #e4d2cc;
+}
+
+#container {
+    width: 50vh;
+    height: 60vh;
+    text-align: center;
+    align-content: center;
+    border: solid black 1px;
+    margin: 10vh auto 0;
+    box-shadow: 0px 0px 10px 3px #222021;
+    border-radius: 10px;
+    color: #ea9950;
+}

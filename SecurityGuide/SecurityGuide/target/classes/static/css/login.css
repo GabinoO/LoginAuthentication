@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #e4d2cc;
+}
+
+
+#formContainer {
+    border: black solid;
+    margin: 10vh auto 0;
+    width: 50vh;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px #222021;
+}
+
+
+#loginHeader {
+    margin-bottom: 10vh;
+    color: #ea9950;
+    width: 20vh;
+    height: 5vh;
+    text-align: center;
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    background-color: #222021;
+
+}
+
+#loginHeader::before {
+    content: "";
+    left: -28px;
+    position: absolute;
+    border-top-right-radius: 50%;
+    width: 30px;
+    height: 30px;
+    box-shadow: 15px 0 0 0 #222021;
+    background: transparent;
+}
+
+#loginHeader:after {
+    content: "";
+    right: -28px;
+    position: absolute;
+    border-top-left-radius: 50%;
+    width: 30px;
+    height: 30px;
+    box-shadow: -15px 0 0 0 #222021;
+    background: transparent;
+}
+
+#usernameContainer {
+    margin: 30px;
+}
+
+#userField {
+    background-color: #222021;
+    width: 35vh;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+#passwordContainer {
+    margin-left: 30px;
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+}
+
+#passField {
+    background-color: #222021;
+    width: 35vh;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+#submitContainer {
+    margin: 50px 30px;
+}
+
+#submitButton {
+    width: 20vh;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #222021;
+    color: #ea9950;
+    font-size: 17px;
+    font-weight: bold;
+    transition-duration: 300ms;
+}
+
+#submitButton:hover {
+    background-color: #9b84c3;
+    color: #e4d2cc;
+    transition-duration: 300ms;
+}
+
+
